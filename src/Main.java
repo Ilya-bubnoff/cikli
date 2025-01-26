@@ -13,8 +13,8 @@ public class Main {
             System.out.print(" "+start);
             start++;}
         System.out.println();
-        for (int a = 10; a > 0; a--){
-            System.out.print(" " + a);
+        for (int b = 10; b > 0; b--){
+            System.out.print(" " + b);
         }
     }
 }
