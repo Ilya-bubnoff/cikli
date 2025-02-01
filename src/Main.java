@@ -73,14 +73,14 @@ public class Main {
         }
         System.out.println("Задача 8");
         int ourDays = 2025;
-        int starT = ourDays - 200;
+        int sTart = ourDays - 200;
         int future = ourDays + 100;
-        while (starT <= future) {
-            if(starT%79==0)
+        while (sTart <= future) {
+            if(sTart%79==0)
             {
-                System.out.println("Год появления кометы " + starT);
+                System.out.println("Год появления кометы " + sTart);
             }
-            starT++;
+            sTart++;
         }
     }
 }
