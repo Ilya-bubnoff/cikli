@@ -72,9 +72,9 @@ public class Main {
             friday += 7;
         }
         System.out.println("Задача 8");
-        int ourDays = 2025;
-        int sTart = ourDays - 200;
-        int future = ourDays + 100;
+        int ourdayS = 2025;
+        int sTart = ourdayS - 200;
+        int future = ourdayS + 100;
         while (sTart <= future) {
             if(sTart%79==0)
             {
